@@ -1,0 +1,38 @@
+.slick-arrow,
+.slick-prev {
+	display: none !important;
+}
+.slick-dots {
+	display: flex !important;
+    top: 318px;
+    left: 101px;
+}
+.slick-dots li {
+	width: 58px;
+	height: 3px;
+}
+.slick-dots li button:before {
+	font-family: "slick";
+	font-size: 6px;
+	line-height: 20px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 57px !important;
+	height: 3px !important;
+
+	content: "";
+	text-align: center;
+
+	opacity: 0.25;
+	background-color: #ffffffad;
+	border-radius: 10px;
+}
+.slick-list {
+	border-radius: 32px;
+}
+.slick-active {
+	background-color: #ffffff !important;
+}
